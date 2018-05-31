@@ -41,9 +41,9 @@
                             </router-link>
                         </el-menu-item>
                         <el-menu-item index="6">
-                            <router-link to="/comments">
-                                <i class="el-icon-edit-outline"></i>
-                                评论管理
+                            <router-link to="/banner">
+                                <i class="el-icon-picture"></i>
+                                轮播管理
                             </router-link>
                         </el-menu-item>
                     </el-menu>

@@ -7,11 +7,12 @@ import Category from '@/components/category/category'
 import CateUpdate from '@/components/category/categoryUpdate'
 import CateAdd from '@/components/category/categoryAdd'
 import Order from '@/components/order/orderShow'
-import Comments from '@/components/comments/comments'
 import GoodsShow from '@/components/goods/goodsShow'
 import GoodsUpdate from '@/components/goods/goodsUpdate'
 import GoodsAdd from '@/components/goods/goodsAdd'
 import Login from '@/components/login/login'
+import Banner from '@/components/banner/banner'
+import Banneradd from '@/components/banner/banneradd'
 
 Vue.use(Router);
 
@@ -34,6 +35,16 @@ export default new Router({
                     component: User,
                 },
                 {
+                    path: 'banner',
+                    name: 'banner',
+                    component: Banner,
+                },
+                {
+                    path: 'banneradd',
+                    name: 'banneradd',
+                    component: Banneradd,
+                },
+                {
                     path: 'category',
                     name: 'category',
                     component: Category,
@@ -52,11 +63,6 @@ export default new Router({
                     path: 'order',
                     name: 'order',
                     component: Order,
-                },
-                {
-                    path: 'comments',
-                    name: 'comments',
-                    component: Comments,
                 },
                 {
                     path: 'goodsShow',
